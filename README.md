@@ -7,9 +7,8 @@ Various mods for the MSFS 2020 in game toolbar
 1) Copy the "camera-ui-mods" folder to the MSFS community folder
 2) Copy the "weather-ui-mods" folder to the MSFS community folder
 
-## Description
-Camera-UI-Mods
--Fixes scrolling list to show more entries in the usable window space
+## Camera-UI-Mods
+Fixes scrolling list to show more entries in the usable window space
 
-Weather-UI-Mods
--Increases allowable precipitation rate range
+## Weather-UI-Mods
+Increases allowable precipitation rate range
