@@ -1,17 +1,25 @@
 ﻿/** This mixin makes a single line element fit exactly on the Roboto font for easier integration. */
+/**
+ * Forces z-index above other siblings during a focused parent.
+*/
 .condensedPanel camera-view-selection {
-  margin-top: calc(var(--screenHeight) * (3px / 1080)); }
+  margin-top: calc(var(--screenHeight) * (3px / 1080) );
+}
   .condensedPanel camera-view-selection options-list-content {
-    --bgc: transparent; }
+    --bgc: transparent;
+}
 
 camera-view-selection {
   padding: var(--halfMargin);
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  margin-top: calc(var(--screenHeight) * (0px / 1080));
+  margin-top: calc(var(--screenHeight) * (0px / 1080) );
   background-color: var(--backgroundColorPanel);
-  min-height: calc(var(--baseMargin) + 2 * var(--optionLineHeight));}
+  min-height: calc(var(--baseMargin) + 2 * var(--optionLineHeight));
+}
   camera-view-selection virtual-scroll {
-    flex: 1 1 auto; }
+    flex: 1 1 auto;
+  }
 
+/*# sourceMappingURL=cameraViewSelection.css.map */
